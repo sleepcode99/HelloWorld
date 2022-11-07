@@ -1,7 +1,5 @@
 package arimatika
 
-import "fmt"
-
-func Tambah() {
-  fmt.Println("Arimatika")
+func Tambah(x, y int)int {
+  return x + y
 }
